@@ -5,11 +5,12 @@
         {
             "label": "dssat-csm: Run DSSAT (without debugging)",
             "options": {
-                "cwd": "C:\\DSSAT47\\TEFF"                                   //<- Set execution working directory
+                "cwd": "C:\\DSSAT47\\TEFF"
             },
-         // "args": [ "C","ETOD1106.TEX","6" ],                                  //<- Set program's arguments 
-         // "args":["B","DSSBatch.v47"],
-            "args":["A","ETOD1101.TEX"],
+            "args": [
+                "A",
+                "ETJD1106.TEX"
+            ],
             "command": "${workspaceRoot}/build/bin/dscsm047.exe",
             "type": "shell",
             "problemMatcher": []
@@ -99,7 +100,8 @@
             "group": {
                 "kind": "build",
                 "isDefault": true
-            }
+            },
+            "problemMatcher": []
         },
         {
             "label": "dssat-csm: Build RELEASE",

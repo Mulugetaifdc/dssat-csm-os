@@ -8,17 +8,17 @@
             //Select plataform
             "windows": {
                 "cwd": "C:\\DSSAT47\\TEFF",                          //<- Set execution working directory
-               // "args": ["C", "ETOD1106.TEX", "6"],                   //<- Set program's arguments
+               // "args": ["C", "ETJD1106.TEX", "6"],                   //<- Set program's arguments
                 "miDebuggerPath": "gdb.exe",                          //<- Set Debugger path    
             },
             "osx": {
                 "cwd": "/DSSAT47/TEFF",                             //<- Set execution working directory
-                "args": ["C", "ETOD1101.TEX", "6"],                  //<- Set program's arguments
+                "args": ["C", "ETJD1101.TEX", "6"],                  //<- Set program's arguments
                 "miDebuggerPath": "/usr/bin/gdb",                    //<- Set Debugger path    
             },
             "linux": {
                 "cwd": "/DSSAT47/TEFF",                             //<- Set execution working directory
-                "args": ["C", "ETOD1101.TEX", "6"],                  //<- Set program's arguments
+                "args": ["C", "ETJD1101.TEX", "6"],                  //<- Set program's arguments
                 "miDebuggerPath": "/usr/bin/gdb",                    //<- Set Debugger path    
             },
             
